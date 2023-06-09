@@ -52,3 +52,8 @@ def lambda_handler(event, context):
         'bucket_name': bucket_name,
         'object_name': output_file
     }
+
+if __name__ == '__main__':
+    event = ''
+    context = ''
+    lambda_handler(event, context)
